@@ -8,6 +8,7 @@ app=Flask(__name__)
 
 con=MySQL(app)
 
+
 @app.route('/alumnos',methods=['GET'])
 def listar_alumnos():
     try:
